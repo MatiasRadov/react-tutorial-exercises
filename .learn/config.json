@@ -1,0 +1,811 @@
+{
+    "config": {
+        "port": 3000,
+        "address": "https://aquamarine-yak-ltmkpbwx.ws-us17.gitpod.io",
+        "editor": {
+            "mode": "preview",
+            "agent": "gitpod",
+            "version": "1.0.70"
+        },
+        "dirPath": "./.learn",
+        "configPath": "learn.json",
+        "outputPath": ".learn/dist",
+        "publicPath": "/preview",
+        "publicUrl": "https://3000-aquamarine-yak-ltmkpbwx.ws-us17.gitpod.io",
+        "grading": "isolated",
+        "exercisesPath": "./exercises",
+        "webpackTemplate": null,
+        "disableGrading": false,
+        "actions": [
+            "build",
+            "test",
+            "reset"
+        ],
+        "entries": {
+            "html": "index.html",
+            "vanillajs": "index.js",
+            "react": "app.jsx",
+            "node": "app.js",
+            "python3": "app.py",
+            "java": "app.java"
+        },
+        "translations": []
+    },
+    "currentExercise": "01-welcome",
+    "language": "react",
+    "title": "Learn React.js Interactively",
+    "repository": "https://github.com/4GeeksAcademy/react-tutorial-exercises",
+    "preview": "https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/master/preview.png?raw=true",
+    "description": "Learn and practice React.js using hooks, interactive tutorial with dozens of react exercises, get instant feedback with automatic grading and watch video solutions afterwards.",
+    "duration": 8,
+    "difficulty": "easy",
+    "video-solutions": true,
+    "graded": true,
+    "session": 8681657462190093000,
+    "exercises": [
+        {
+            "position": 0,
+            "path": "exercises/01-welcome",
+            "slug": "01-welcome",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": null,
+            "entry": null,
+            "title": "01-welcome",
+            "graded": false,
+            "files": [
+                {
+                    "path": "exercises/01-welcome/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/01-welcome/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 1,
+            "path": "exercises/01.1-hello-world",
+            "slug": "01.1-hello-world",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "react",
+            "entry": "exercises/01.1-hello-world/app.jsx",
+            "title": "01.1-hello-world",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/01.1-hello-world/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/01.1-hello-world/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/01.1-hello-world/app.jsx",
+                    "name": "app.jsx",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/01.1-hello-world/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 2,
+            "path": "exercises/01.2-hello-jsx",
+            "slug": "01.2-hello-jsx",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "react",
+            "entry": "exercises/01.2-hello-jsx/app.jsx",
+            "title": "01.2-hello-jsx",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/01.2-hello-jsx/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/01.2-hello-jsx/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/01.2-hello-jsx/app.jsx",
+                    "name": "app.jsx",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/01.2-hello-jsx/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 3,
+            "path": "exercises/01.3-rendering-from-objects",
+            "slug": "01.3-rendering-from-objects",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "react",
+            "entry": "exercises/01.3-rendering-from-objects/app.jsx",
+            "title": "01.3-rendering-from-objects",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/01.3-rendering-from-objects/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/01.3-rendering-from-objects/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/01.3-rendering-from-objects/app.jsx",
+                    "name": "app.jsx",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/01.3-rendering-from-objects/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 4,
+            "path": "exercises/01.4-building-a-layout",
+            "slug": "01.4-building-a-layout",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "react",
+            "entry": "exercises/01.4-building-a-layout/app.jsx",
+            "title": "01.4-building-a-layout",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/01.4-building-a-layout/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/01.4-building-a-layout/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/01.4-building-a-layout/app.jsx",
+                    "name": "app.jsx",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/01.4-building-a-layout/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 5,
+            "path": "exercises/01.5-building-html-from-arrays",
+            "slug": "01.5-building-html-from-arrays",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "react",
+            "entry": "exercises/01.5-building-html-from-arrays/app.jsx",
+            "title": "01.5-building-html-from-arrays",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/01.5-building-html-from-arrays/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/01.5-building-html-from-arrays/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/01.5-building-html-from-arrays/app.jsx",
+                    "name": "app.jsx",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/01.5-building-html-from-arrays/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 6,
+            "path": "exercises/02-maping-array-to-li",
+            "slug": "02-maping-array-to-li",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "react",
+            "entry": "exercises/02-maping-array-to-li/app.jsx",
+            "title": "02-maping-array-to-li",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/02-maping-array-to-li/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/02-maping-array-to-li/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/02-maping-array-to-li/app.jsx",
+                    "name": "app.jsx",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/02-maping-array-to-li/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 7,
+            "path": "exercises/02.1-maping-array-objects-to-li",
+            "slug": "02.1-maping-array-objects-to-li",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "react",
+            "entry": "exercises/02.1-maping-array-objects-to-li/app.jsx",
+            "title": "02.1-maping-array-objects-to-li",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/02.1-maping-array-objects-to-li/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/02.1-maping-array-objects-to-li/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/02.1-maping-array-objects-to-li/app.jsx",
+                    "name": "app.jsx",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/02.1-maping-array-objects-to-li/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 8,
+            "path": "exercises/02.2-maping-array-of-objects-to-li",
+            "slug": "02.2-maping-array-of-objects-to-li",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "react",
+            "entry": "exercises/02.2-maping-array-of-objects-to-li/app.jsx",
+            "title": "02.2-maping-array-of-objects-to-li",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/02.2-maping-array-of-objects-to-li/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/02.2-maping-array-of-objects-to-li/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/02.2-maping-array-of-objects-to-li/app.jsx",
+                    "name": "app.jsx",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/02.2-maping-array-of-objects-to-li/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 9,
+            "path": "exercises/03-render-with-functions",
+            "slug": "03-render-with-functions",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "react",
+            "entry": "exercises/03-render-with-functions/app.jsx",
+            "title": "03-render-with-functions",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/03-render-with-functions/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03-render-with-functions/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03-render-with-functions/app.jsx",
+                    "name": "app.jsx",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/03-render-with-functions/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 10,
+            "path": "exercises/03.1-your-first-component",
+            "slug": "03.1-your-first-component",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "react",
+            "entry": "exercises/03.1-your-first-component/app.jsx",
+            "title": "03.1-your-first-component",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/03.1-your-first-component/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03.1-your-first-component/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03.1-your-first-component/app.jsx",
+                    "name": "app.jsx",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/03.1-your-first-component/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 11,
+            "path": "exercises/03.2-a-real-component",
+            "slug": "03.2-a-real-component",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "react",
+            "entry": "exercises/03.2-a-real-component/app.jsx",
+            "title": "03.2-a-real-component",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/03.2-a-real-component/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03.2-a-real-component/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03.2-a-real-component/app.jsx",
+                    "name": "app.jsx",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/03.2-a-real-component/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 12,
+            "path": "exercises/03.3-component-properties",
+            "slug": "03.3-component-properties",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "react",
+            "entry": "exercises/03.3-component-properties/app.jsx",
+            "title": "03.3-component-properties",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/03.3-component-properties/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03.3-component-properties/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03.3-component-properties/app.jsx",
+                    "name": "app.jsx",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/03.3-component-properties/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 13,
+            "path": "exercises/03.4-jumbotron",
+            "slug": "03.4-jumbotron",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "react",
+            "entry": "exercises/03.4-jumbotron/app.jsx",
+            "title": "03.4-jumbotron",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/03.4-jumbotron/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03.4-jumbotron/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03.4-jumbotron/app.jsx",
+                    "name": "app.jsx",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/03.4-jumbotron/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 14,
+            "path": "exercises/03.5-alert-component",
+            "slug": "03.5-alert-component",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "react",
+            "entry": "exercises/03.5-alert-component/app.jsx",
+            "title": "03.5-alert-component",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/03.5-alert-component/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03.5-alert-component/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03.5-alert-component/app.jsx",
+                    "name": "app.jsx",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/03.5-alert-component/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 15,
+            "path": "exercises/04-conditional-rendering",
+            "slug": "04-conditional-rendering",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "react",
+            "entry": "exercises/04-conditional-rendering/app.jsx",
+            "title": "04-conditional-rendering",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/04-conditional-rendering/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/04-conditional-rendering/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/04-conditional-rendering/app.jsx",
+                    "name": "app.jsx",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/04-conditional-rendering/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 16,
+            "path": "exercises/04.1-conditional-rendering",
+            "slug": "04.1-conditional-rendering",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "react",
+            "entry": "exercises/04.1-conditional-rendering/app.jsx",
+            "title": "04.1-conditional-rendering",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/04.1-conditional-rendering/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/04.1-conditional-rendering/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/04.1-conditional-rendering/app.jsx",
+                    "name": "app.jsx",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/04.1-conditional-rendering/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 17,
+            "path": "exercises/04.2-conditional-rendering-ii",
+            "slug": "04.2-conditional-rendering-ii",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "react",
+            "entry": "exercises/04.2-conditional-rendering-ii/app.jsx",
+            "title": "04.2-conditional-rendering-ii",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/04.2-conditional-rendering-ii/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/04.2-conditional-rendering-ii/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/04.2-conditional-rendering-ii/app.jsx",
+                    "name": "app.jsx",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/04.2-conditional-rendering-ii/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 18,
+            "path": "exercises/05-adding-styles",
+            "slug": "05-adding-styles",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "react",
+            "entry": "exercises/05-adding-styles/app.jsx",
+            "title": "05-adding-styles",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/05-adding-styles/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/05-adding-styles/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/05-adding-styles/app.jsx",
+                    "name": "app.jsx",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/05-adding-styles/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 19,
+            "path": "exercises/05.1-second-styles",
+            "slug": "05.1-second-styles",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "react",
+            "entry": "exercises/05.1-second-styles/app.jsx",
+            "title": "05.1-second-styles",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/05.1-second-styles/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/05.1-second-styles/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/05.1-second-styles/app.jsx",
+                    "name": "app.jsx",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/05.1-second-styles/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 20,
+            "path": "exercises/05.1-using-properties",
+            "slug": "05.1-using-properties",
+            "translations": {},
+            "language": "react",
+            "entry": "exercises/05.1-using-properties/app.jsx",
+            "title": "05.1-using-properties",
+            "graded": false,
+            "files": [
+                {
+                    "path": "exercises/05.1-using-properties/app.jsx",
+                    "name": "app.jsx",
+                    "hidden": false
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 21,
+            "path": "exercises/06-listening-to-events",
+            "slug": "06-listening-to-events",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "react",
+            "entry": "exercises/06-listening-to-events/app.jsx",
+            "title": "06-listening-to-events",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/06-listening-to-events/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/06-listening-to-events/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/06-listening-to-events/app.jsx",
+                    "name": "app.jsx",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/06-listening-to-events/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        }
+    ]
+}
